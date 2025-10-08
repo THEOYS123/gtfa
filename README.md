@@ -24,8 +24,10 @@ python main.py
 ```
 
 ---
+# 📸
 ![Gallery-1](tools_gtfa.png)
 ---
+# 📸
 ![Gallery-2](gtfa_pages.jpg)
 ---
 
