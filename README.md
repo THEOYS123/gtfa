@@ -23,6 +23,9 @@ pip install requests rich watchdog rush
 python main.py
 ```
 
+Tools by Flood hunting! | [My contact](oprek.xyz/contact) 
+
+
 ---
 # 📸
 ![Gallery-1](tools_gtfa.png)
