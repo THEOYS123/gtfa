@@ -24,9 +24,9 @@ python main.py
 ```
 
 ---
-![Gallery-1](tools_gtfa.jpg)
+![Gallery-1](tools_gtfa.npg)
 ---
-![Gallery-2](gtfa_pages.jng)
+![Gallery-2](gtfa_pages.jpg)
 ---
 
 Tools by Flood hunting! | [My contact](oprek.xyz/contact) 
