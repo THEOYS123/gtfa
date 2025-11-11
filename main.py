@@ -60,7 +60,7 @@ def ensure_config(cfg: Dict[str, Any]) -> Dict[str, Any]:
         "repo": "",
         "branch": "main",
         "pages_branch": "gh-pages",
-        "auto_commit_message": "Auto upload via GitHub Upload Tool",
+        "auto_commit_message": "Auto upload via gtfa Tool",
         "sync_ignore": [".git", "__pycache__"]
     }
     for k, v in defaults.items():
@@ -74,7 +74,7 @@ def prompt_initial_cfg(cfg: Dict[str, Any]) -> Dict[str, Any]:
     repo = Prompt.ask("Repo name", default=cfg.get("repo", ""))
     branch = Prompt.ask("Default branch", default=cfg.get("branch", "main"))
     pages_branch = Prompt.ask("Pages branch (default gh-pages)", default=cfg.get("pages_branch", "gh-pages"))
-    auto_msg = Prompt.ask("Default commit message", default=cfg.get("auto_commit_message", "Auto upload via GitHub Upload Tool"))
+    auto_msg = Prompt.ask("Default commit message", default=cfg.get("auto_commit_message", "Auto upload via gtfa Tool"))
     new = {
         "token": token.strip(),
         "owner": owner.strip(),
